@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3de9ad8b-6096-49d8-963e-71a688fe5a19" name="Changes" comment="Learning Vulkan">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/shaders/shader.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/shaders/shader.frag.spv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/shaders/shader.vert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/shaders/shader.vert.spv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compile.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/app_data.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/buffer.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/command_buffer.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/command_pool.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/device.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/framebuffer.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/instance.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/pipeline.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/queue_family_indices.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/render.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/semaphore.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/shader.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/swapchain.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/swapchain_support.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render/vertex.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vulkan_game.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="GLSL Shader" />
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KotlinMultiplatform">
+    <allAvailableExecutables />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="l7z7v8i9" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2J4Ul1WnycrTjAzEUFQ9gcu0efh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\brand\Code\vulkan_game\src\api" />
+      <recent name="C:\Users\brand\Code\vulkan_game\assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --package vulkan_game --bin vulkan_game" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs>
+        <env name="RUST_LOG" value="debug" />
+      </envs>
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3de9ad8b-6096-49d8-963e-71a688fe5a19" name="Changes" comment="" />
+      <created>1671336996376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671336996376</updated>
+      <workItem from="1671336998606" duration="2013000" />
+      <workItem from="1671383577094" duration="1289000" />
+      <workItem from="1671385410326" duration="6233000" />
+      <workItem from="1671400536604" duration="13509000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Learning Vulkan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learning Vulkan" />
+  </component>
+</project>
